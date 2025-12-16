@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widht=device-widht, initial-scale=1">
+  <title>Formulir Pendaftaran</title>
+</head>
+<body>
+  <h2 align="center">Formulir Pendaftaran</h2>
+  <form method="post" action="">
+    <table align="center" border="0" cellspacing="10" bgcolor="yellow">
+      <tr>
+        <td>NIM</td>
+        <td>
+          <input type="number" name="" size="20" placeholder="Masukkan Nim anda" required>
+        </td>
+      </tr>
+      <tr>
+        <td>Nama</td>
+        <td>
+          <input type="text" name="nama" size="50" placeholder="Masukkan Nama anda" required>
+        </td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>
+          <input type="password" name="pswd" size="20" placeholder="Masukkan Password anda" required>
+        </td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>
+          <textarea cols="40" rows="3" name="alamat" placeholder="Masukan Alamat Anda" required></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>Kota</td>
+        <td>
+          <select name="kota">
+            <option>--Pilih Kota--</option>
+            <option>Pamulang</option>
+            <option>Depok</option>
+            <option>Cinere</option>
+            <option>Ciputat</option>
+            <option>Ciledug</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>
+          <textarea cols="40" rows="3" name="alamat" placeholder="Masukan Alamat Anda" required></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>Tanggal Lahir</td>
+        <td>
+          <input type="date" name="tgl">
+        </td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>
+          <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+          <input type="radio" name="jk" value="Perempuan"> Perempuan
+        </td>
+      </tr>
+      <tr>
+        <td>Jurusan</td>
+        <td>
+          <select name="jrs" size="3">
+            <option>Sistem Informasi</option>
+            <option>Arsitek</option>
+            <option>Mesin</option>
+            <option>Elektro</option>
+            <option>Teknik Industri</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Hobby</td>
+        <td>
+          <input type="checkbox" name="hobby" value="Mancing"> Mancing Mania <br>
+          <input type="checkbox" name="hobby" value="Makan"> Makan Mania <br>
+          <input type="checkbox" name="hobbh" value="Tidur"> Tidur Mania
+        </td>
+      </tr>
+      <tr>
+        <td>Upload File</td>
+        <td>
+          <input type="file" name="file">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+        <input type="submit" name="submit" value="kirim">
+          <input type="reset" name="reset" value="batal">
+        </td>
+      </tr>
+    </table>
+    
+  </form>
+  
+</body>
+</html>
